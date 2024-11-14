@@ -1,0 +1,56 @@
+.sales-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"], select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+p {
+  font-weight: bold;
+  font-size: 16px;
+}
